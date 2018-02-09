@@ -6,8 +6,8 @@ class App < Sinatra::Base
 		erb :index
 	end
 
-	get '/controller'
+	get '/controller' do
 		"Testing the info page"
 	end
-	
+
 end
